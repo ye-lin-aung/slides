@@ -1,0 +1,5 @@
+#+TITLE: Introduction to CS
+#+AUTHOR: Ye Lin Aung
+#+DATE: <2024-05-31 Fri>
+
+* Introduction to CS
