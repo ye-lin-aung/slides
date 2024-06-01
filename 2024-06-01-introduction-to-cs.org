@@ -60,7 +60,7 @@ All computer science problems are unique, there is no such thing as definitive a
 2) English
 3) Maths (Linear algebra, Calculus).
 4) Familiarity with office suite products (forms, sheets, docs).
-5) [[https://www.youtube.com/watch?v=nKIu9yen5)c][Anyone can code]]
+5) [[https://www.youtube.com/watch?v=nKIu9yen5nc][Anyone can code]]
 6) Make it stick 
 * Self study.
 [[https://pll.harvard.edu/course/cs50-introduction-computer-science][CS 50]]
