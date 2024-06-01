@@ -1,0 +1,25 @@
+:REVEAL__PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_THEME: simple
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+OPTIONS: toc:1 num:nil timestamp:nil reveal_progress:1 reveal_center:nil
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND: ./bg.webp
+#+REVEAL_HEAD_PREAMBLE: <link href='http://fonts.googleapis.com/css?family=VT323&display=swap' rel='stylesheet' type='text/css'>
+#+REVEAL_EXTRA_CSS: ./custom.css
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ./bg.webp
+#+REVEAL_TITLE_SLIDE_BACKGROUND_OPACITY: 0.20
+#+REVEAL_TITLE_SLIDE_BACKGROUND_POSITION: top
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND_POSITION: top
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND_OPACITY: 0.20
+#+REVEAL_TOC_SLIDE_BACKGROUND: ./bg.webp
+#+REVEAL_TOC_SLIDE_BACKGROUND_OPACITY: 0.20
+#+REVEAL_TOC_SLIDE_BACKGROUND_POSITION: top
+#+REVEAL_BACKGROUND: #FFFFFF
+:END:
+#+TITLE: Slides
+#+AUTHOR: Ye Lin Aung
+#+SUBTITLE: Principle engineer @ [[https://dayforce.com][Dayforce]]
+* Links
+[[https://slides.yelinaung.me/2024-06-01-introduction-to-cs.html][2024-06-01-introduction-to-cs.html]]
+
+
