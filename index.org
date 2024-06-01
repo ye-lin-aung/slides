@@ -19,7 +19,9 @@
 #+TITLE: Slides
 #+AUTHOR: Ye Lin Aung
 #+SUBTITLE: Principle engineer @ [[https://dayforce.com][Dayforce]]
-* Links
-[[https://slides.yelinaung.me/2024-06-01-introduction-to-cs.html][2024-06-01-introduction-to-cs.html]]
+* [2024-06-01]Introduction to cs
+1. [[https://github.com/ye-lin-aung/slides/blob/main/2024-06-01-introduction-to-cs.org][Text]]
+2. [[https://slides.yelinaung.me/2024-06-01-introduction-to-cs.html][Power point]]
+
 
 
