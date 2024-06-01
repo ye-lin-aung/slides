@@ -1,5 +1,74 @@
-#+TITLE: Introduction to CS
+:REVEAL__PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_THEME: simple
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+OPTIONS: toc:1 num:nil timestamp:nil reveal_progress:1 reveal_center:nil
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND: ./bg.webp
+#+REVEAL_HEAD_PREAMBLE: <link href='http://fonts.googleapis.com/css?family=VT323&display=swap' rel='stylesheet' type='text/css'>
+#+REVEAL_EXTRA_CSS: ./custom.css
+#+REVEAL_TITLE_SLIDE_BACKGROUND: ./bg.webp
+#+REVEAL_TITLE_SLIDE_BACKGROUND_OPACITY: 0.20
+#+REVEAL_TITLE_SLIDE_BACKGROUND_POSITION: top
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND_POSITION: top
+#+REVEAL_DEFAULT_SLIDE_BACKGROUND_OPACITY: 0.20
+#+REVEAL_TOC_SLIDE_BACKGROUND: ./bg.webp
+#+REVEAL_TOC_SLIDE_BACKGROUND_OPACITY: 0.20
+#+REVEAL_TOC_SLIDE_BACKGROUND_POSITION: top
+#+REVEAL_BACKGROUND: #FFFFFF
+:END:
+#+TITLE: Before you start
 #+AUTHOR: Ye Lin Aung
 #+DATE: <2024-05-31 Fri>
+#+SUBTITLE: Principle engineer @ [[https://dayforce.com][Dayforce]]
+* Prerequisites
+#+ATTR_REVEAL: :frag (roll-in)
+1) A windows 10 or windows 11 computer
+2) Google chrome (Up to date)
+3) Internet connection (No need to be fast)
+4) Dedicated learning time (at least 2 hours per day.
+* Computer science
+Computer science is a broad subject.
+Not all specializations requires coding. But knowing it will make you shine.
+#+ATTR_REVEAL: :frag (roll-in)
+1) AI engineer
+2) Mobile engineer
+3) Web developer
+4) Solution architect
+5) Game engineer
+6. etc
+#+ATTR_REVEAL: :frag (roll-in)
+* Roadmap
+Example roadmap for different stacks.
+[[https://roadmap.sh/][Roadmap]]
+* Work smart, not hard
+#+ATTR_REVEAL: :frag (roll-in)
+1) Computer science is about solving problems in creative way.
+2) Creativity & Problem solving skill is important.
+3) There is no best solution.
+4) Critical thinking is a must.
+* Mental model
+All computer science problems are unique, there is no such thing as definitive answer for a problem. Computer science problems are like building blocks.
+#+ATTR_REVEAL: :frag (roll-in)
+1) What is the problem.
+2) What is the solution.
+3) Why is the solution.
+4) Is there any other better ways?.
+* Recommendations
+#+ATTR_REVEAL: :frag (roll-in)
+1) Any bechalor degree.(For visa purposes)
+2) English
+3) Maths (Linear algebra, Calculus).
+4) Familiarity with office suite products (forms, sheets, docs).
+5) [[https://www.youtube.com/watch?v=nKIu9yen5)c][Anyone can code]]
+6) Make it stick 
+* Self study.
+[[https://pll.harvard.edu/course/cs50-introduction-computer-science][CS 50]]
+* Intensive hard core route
+** Warning!. Super hard 💀
+Learning CS from 0 to hero.
+[[https://github.com/ossu/computer-science][OSSU]]
+* AMA
 
-* Introduction to CS
+
+  
+

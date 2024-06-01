@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.reveal pre {
+    font-family: VT323;
+}
+.reveal code {
+    font-family: VT323;
+}
+h1, h2,.title, .subtitle, p, h3, h4, h5, h6 {
+    font-family: "VT323", Impact, sans-serif !important;
+
+}
+
+body, body * {
+    font-family: "VT323" !important;
+}
+.date {  display: none; }
+html.img-right div.slide-background.present {
+    background-position: right;
+}
+.slide-background-content {
+    background-position: top !important;
+}
+.reveal a {
+
+}
+body {
+    font-size: 70% !important;
+}
+p {
+
+    font-size: 70% !important;
+}
+li {
+    font-size: 70% !important;
+}
+.reveal h2 {
+    -webkit-text-stroke: 0.5px 	#d4ce5d; /* width and color */
+    color: #a32927 !important;
+    font-size: 100%;
+}
+.reveal h1 { font-size: 120%; }
+.title {
+    -webkit-text-stroke: 0.5px 	#d4ce5d; /* width and color */
+    color: #a32927 !important;
+
+    font-size: 150% !important;
+}
+.subtitle { font-size:
+@-webkit-keyframes blur-animation {
+  0% {
+    -webkit-filter: blur(0px) ;
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+
+  }
+  100% {
+    -webkit-filter: blur(10px) saturate(.5) brightness(.8);
+    -moz-filter: blur(10px) saturate(.7) brightness(.9);
+    -o-filter: blur(10px) saturate(.7) brightness(.9);
+    -ms-filter: blur(10px)saturate(.7) brightness(.9);
+    filter: blur(10px) saturate(.7) brightness(.9);
+
+  }
+}
+
+html.background-blur-animation .backgrounds {
+   -webkit-animation-name: blur-animation;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-iteration-count: 1;
+   -webkit-animation-direction: alternate;
+   -webkit-animation-timing-function: ease-out;
+   -webkit-animation-fill-mode: forwards;
+   -webkit-animation-delay: 0s;
+}
