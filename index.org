@@ -22,6 +22,10 @@
 * [2024-06-01]Introduction to cs
 1. [[https://github.com/ye-lin-aung/slides/blob/main/2024-06-01-introduction-to-cs.org][Text]]
 2. [[https://slides.yelinaung.me/2024-06-01-introduction-to-cs.html][Power point]]
+* 2024-06-15 Realworld life cycles
+1. [[https://github.com/ye-lin-aung/slides/blob/main/2024-06-14-application-lifecycles.org][Text]]
+2. [[https://slides.yelinaung.me/2024-06-014-application-lifecycles.html][Power point]]
+
 
 
 
