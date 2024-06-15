@@ -13,8 +13,11 @@
 #+SUBTITLE: Software engineer @ [[https://dayforce.com][Dayforce]]
 
 * Lifecycles & States
+The sequence of phases and states which an entity or process passes during its existence.
+#+BEGIN_NOTES
+Talk about human lifecycle. 
+#+END_NOTES
 * Basics
-#+ATTR_REVEAL: :frag (roll-in)
  [[./assets/lifecycle.png]]
 * Importance
 ** Life cycles helps you to understand whats happening.
@@ -23,23 +26,110 @@
 ** Need to consider what to do if the programmed is killed when coding.
 * Software development lifecycle
 [[./assets/software-development-lifecycle.png]]
+#+BEGIN_NOTES
+Define project scope and objectives, assess feasibility, and create a project plan.
+
+Gather and analyze detailed business and user requirements.
+
+Develop a high-level system architecture and design.
+
+Translate logical design into detailed physical specifications.
+
+Convert design into working software.
+
+Provide ongoing support and updates after deployment.
+#+END_NOTES
 * Request/Response (General)
 [[./assets/request-lifecycle.png]]
 * Load balancer
 [[./assets/loadbalancer-lifecycle.png]]
+#+BEGIN_NOTES
+Deployment and Configuration:
+
+Installation: Installing load balancer hardware or software.
+Configuration: Setting initial parameters like backend servers, load balancing algorithms, and health checks.
+Network Integration: Integrating into the network and updating DNS settings for traffic routing.
+Operation:
+
+Traffic Distribution: Distributing incoming traffic across backend servers.
+Health Monitoring: Continuously checking backend server health and managing server availability.
+Session Persistence: Maintaining session persistence if configured.
+Maintenance and Scaling:
+
+Routine Maintenance: Applying regular updates and patches.
+Scaling: Adding instances or upgrading resources to handle increased traffic.
+Monitoring and Logging: Continuously monitoring traffic and performance metrics, logging errors.
+Optimization:
+
+Performance Tuning: Adjusting settings for optimal performance.
+Security Enhancements: Implementing security measures like SSL/TLS termination, DDoS protection, and WAF integration.
+Troubleshooting and Incident Response:
+
+Issue Identification: Using monitoring tools to detect performance issues and health check failures.
+Incident Response: Taking corrective actions such as traffic rerouting or server reboots.
+Decommissioning:
+
+Traffic Rerouting: Gradually rerouting traffic away from the load balancer.
+
+Service Shutdown: Gracefully shutting down the load balancer.
+
+Resource Cleanup: Removing from the network, updating DNS, and cleaning up resources.
+
+Data Archiving: Archiving logs and configuration files for future reference
+#+END_NOTES
 * Web Server
 [[./assets/webserver.png]]
+#+BEGIN_NOTES
+Request Reception: NGINX receives the incoming HTTP request via a specified IP address and port.
+
+Connection Establishment: NGINX accepts the connection from the client. For HTTPS, it performs an SSL/TLS handshake.
+
+Request Parsing: NGINX parses the HTTP request to determine the method, URI, headers, and other metadata.
+
+Phase Handlers: NGINX processes the request through various phases, including:
+#+END_NOTES
 * Application
 [[./assets/web-application.png]]
 * Process 
 [[./assets/os-lifecycle.png]]
-* Lets analyze 
-** Mobile apps
+#+BEGIN_NOTES
+Creation: A new process is created by duplicating an existing one (fork()) and loading a new program (exec()).
+
+Ready: The process is ready to run and waiting for CPU allocation by the scheduler.
+
+Running: The process is actively executing on the CPU.
+
+Waiting (Blocked): The process waits for an event or resource, moving back to the ready state once available.
+
+Termination: The process completes execution or is terminated, and the OS cleans up resources.
+#+END_NOTES
+* TCP
+[[./assets/tcp.png]]
+#+BEGIN_NOTES
+SYN (Synchronize): The client sends a SYN packet to the server to initiate a connection.
+
+SYN-ACK (Synchronize-Acknowledge): The server responds with a SYN-ACK packet, acknowledging the client's SYN packet and indicating readiness to establish a connection.
+
+ACK (Acknowledge): The client sends an ACK packet back to the server, confirming the receipt of the SYN-ACK packet. The connection is now established, and data transfer can begin.
+
+FIN (Finish): The client or server initiates the termination process by sending a FIN packet, indicating it has finished sending data.
+
+ACK (Acknowledge): The receiving end acknowledges the FIN packet by sending an ACK packet.
+
+FIN (Finish): The receiving end then sends its own FIN packet to indicate it has also finished sending data.
+
+ACK (Acknowledge): The original sender acknowledges the second FIN packet by sending a final ACK packet. The connection is now closed.
+#+END_NOTES
+* Lets analyze
 ** TCP
+** Mobile apps
 * Mobile application
 #+attr_html: :width 600px
 #+attr_latex: :width 600px
 [[./assets/mobile.png]]
-* TCP
-[[./assets/tcp.png]]
+* Activity  
+#+attr_html: :width 600px
+#+attr_latex: :width 600px
+[[https://developer.android.com/guide/components/images/activity_lifecycle.png]]
+* Happy learning
 * Q&A
