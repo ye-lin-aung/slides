@@ -1,0 +1,45 @@
+:REVEAL__PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_THEME: white
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+OPTIONS: toc:1 num:nil timestamp:nil reveal_progress:1 reveal_center:nil
+#+REVEAL_HEAD_PREAMBLE: <link href="https://fonts.cdnfonts.com/css/koch-fette-deutsche-schrift" rel="stylesheet">
+#+REVEAL_HEAD_PREAMBLE: <link href='http://fonts.googleapis.com/css?family=VT323&display=swap' rel='stylesheet' type='text/css'>
+#+REVEAL_EXTRA_CSS: ./bootcamp.css
+:END:
+#+TITLE: Applications Lifecycle
+#+AUTHOR: Ye Lin Aung
+#+DATE: <2024-05-31 Fri>
+#+SUBTITLE: Software engineer @ [[https://dayforce.com][Dayforce]]
+
+* Lifecycles & States
+* Basics
+#+ATTR_REVEAL: :frag (roll-in)
+ [[./assets/lifecycle.png]]
+* Importance
+** Life cycles helps you to understand whats happening.
+** Helps to understand state management.
+** Crucial in debugging.
+** Need to consider what to do if the programmed is killed when coding.
+* Software development lifecycle
+[[./assets/software-development-lifecycle.png]]
+* Request/Response (General)
+[[./assets/request-lifecycle.png]]
+* Load balancer
+[[./assets/loadbalancer-lifecycle.png]]
+* Web Server
+[[./assets/webserver.png]]
+* Application
+[[./assets/web-application.png]]
+* Process 
+[[./assets/os-lifecycle.png]]
+* Lets analyze 
+** Mobile apps
+** TCP
+* Mobile application
+#+attr_html: :width 600px
+#+attr_latex: :width 600px
+[[./assets/mobile.png]]
+* TCP
+[[./assets/tcp.png]]
+* Q&A

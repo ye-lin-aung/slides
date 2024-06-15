@@ -1,0 +1,28 @@
+.date {  display: none; }
+html.img-right div.slide-background.present {
+    background-position: right;
+}
+.slide-background-content {
+    background-position: top !important;
+}
+.reveal a {
+
+}
+body {
+    font-size: 70% !important;
+}
+p {
+
+    font-size: 70% !important;
+}
+li {
+    font-size: 70% !important;
+}
+.reveal h2 {
+    font-size: 100%;
+}
+.reveal h1 { font-size: 120%; }
+.title {
+    font-size: 150% !important;
+}
+.subtitle { font-size: 150% !important; }

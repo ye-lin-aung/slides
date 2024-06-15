@@ -55,7 +55,6 @@ All computer science problems are unique, there is no such thing as definitive a
 3) Why is the solution.
 4) Is there any other better ways?.
 * Recommendations
-#+ATTR_REVEAL: :frag (roll-in)
 1) Any bechalor degree.(For visa purposes)
 2) English
 3) Maths (Linear algebra, Calculus).
